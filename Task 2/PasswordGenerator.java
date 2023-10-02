@@ -7,7 +7,7 @@ public class PasswordGenerator {
     private static final String SPECIAL_CHARS = "!@#$%^&*()-_+=<>?";
 
     public static void main(String[] args) {
-        int length = 12; // Desired length of the password
+        int length = 12;
 
         String password = generateRandomPassword(length);
         System.out.println("Generated Password: " + password);
